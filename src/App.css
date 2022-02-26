@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.navbar-title{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-icon{
+    width: 40px !important;
+   height: 40px !important; 
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container,.row{
+  padding :0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.floating-add-button{
+   position : fixed !important;
+   left : 80%;
+   top :80%;
+   z-index: 1;
 }
 
-.App-link {
-  color: #61dafb;
+.createcontact-container{
+   padding: 0px !important;
+   margin-top: 50px;
+   font-family: 'Space Mono', monospace;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.solo-contact-column{
+   box-sizing: border-box;
+  /* background-color : white; */
+   padding :15px ;
+  /* margin: 5px; */
+    
+}
+
+.reatecontact-icon{
+  color: whitesmoke !important;
+}
+
+.solo-contact-inner-container li{
+     padding: 10px 2px 5px 5px;
 }

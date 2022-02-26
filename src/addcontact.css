@@ -1,0 +1,25 @@
+.addcontact-container{
+    margin-top:50px;
+}
+
+.icon-input{
+    margin-top:40px !important;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+.input{
+    width: 80%;
+}
+.icon{
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 20px;
+    
+}
+
+.addcontact-button{
+     justify-content: end;
+}

@@ -1,0 +1,1 @@
+export const API ="https://61d9360dce86530017e3ca3f.mockapi.io/contact-manager"
